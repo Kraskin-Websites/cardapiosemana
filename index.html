@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Sua marca aqui">
+    <meta property="og:description" content="Acesse nosso cardápio">
+    <meta property="og:image" content="https://diego-kraskin.github.io/cardapiosemana/src/imagens/sabor.png">
+    <title>Sua marca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1 class="title">Cardápio da Semana</h1>
+    </header>
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Segunda-Feira <br> Alaminuta <br> <span class="price">R$18.90</span></h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/alaminuta.jfif"
+            alt="Seu Clope"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Arroz, Feijão, Ovo, Bife, Batata fritas e
+              salada de alface com tomate.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">Terça-Feira <br> Strogonoff <br> <span class="price">R$18.90</span> </h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/STROGONOFF.jfif"
+            alt="Vamplena"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Arroz, carne ao molho de Strogonoff, batata palha e feijão 
+            </p>
+          </div>
+        </li>
+
+
+        <li class="cartao fundo-3">
+          <h2 class="nome">Quarta-Feira <br> Massa ao Molho <br> <span class="price">R$18.90</span>
+          </h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/massa ao molho.jfif"
+            alt="Jubiléia"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Macarrão tipo espaguete servido com molho de tomate com MAGGI Caldo Carne
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome">Quinta-Feira <br> Frango <br> <span class="price">R$18.90</span> </h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/peixe.jpg"
+            alt="Tempestade Solar"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              cuidadosamente para oferecer o sabor da comida caseira, o filé de tilápia à milanesa, disponível no cardápio do 
+              Mr. Cheff, é servido com arroz, feijão, salada e batata frita.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-5">
+          <h2 class="nome">Sexta-Feira <br> Churrasco <br> <span class="price">R$18.90</span></h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/churrasco.jfif"
+            alt="Loggineto"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+             Carne assada 
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-6">
+          <h2 class="nome"> Sabado <br> Carne de panela <br> <span class="price">R$18.90</span> </h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/carne=panela.jfif"
+            alt="Professor Cafeze"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              A carne de panela é um prato clássico que traz um sabor incrível para o paladar. A carne de panela é perfeita para um almoço ou jantar em família, sendo frequentemente acompanhada de arroz, batatas ou legumes. Aproveite a simplicidade e a delícia desse prato clássico, que certamente vai agradar a todos. 
+              Siga os passos dessa receita e desfrute de uma carne de panela irresistível!
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+  <script src="./src/js/index.js"></script>
+
+  </body>
+</html>
